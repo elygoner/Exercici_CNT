@@ -3,7 +3,7 @@ import MDAnalysis as mda
 import matplotlib.pyplot as plt
 
 #Load trajectory
-simulacio = mda.Universe('imdnanotube.psf','autoimd.dcd')
+simulacio = mda.Universe('../input/system.psf','../equilibration/MDequil.dcd')
 
 #init list
 time =[]
